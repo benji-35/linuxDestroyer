@@ -14,6 +14,7 @@ then
     cmd2="alias vim='echo \"bash: vim:command not found\"'\n"
     cmd3="alias code='echo \"bash: code:command not found\"'\n"
     cmd22="alias apt='echo \"bash: apt:command not found\"'\n'"
+    cmd23="alias bat='echo \"bash: bat:command not found\"'\n'"
     cmd4="alias su='echo \"bash: su:command not found\"'\n"
     cmd5="alias sudo='echo \"bash: sudo:command not found\"'\n"
     cmd6="alias cd='echo \"bash: cd:command not found\"'\n"
@@ -57,6 +58,7 @@ then
     printf "$cmd20" >> $file
     printf "$cmd21" >> $file
     printf "$cmd22" >> $file
+    printf "$cmd23" >> $file
 
 fi
 
