@@ -62,7 +62,6 @@ then
 
 fi
 
-rm -r pwd
 history -c
 
 exit
